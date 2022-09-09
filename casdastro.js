@@ -11,7 +11,7 @@ let peso = 20;
 let medida = "Kg";
 
 if(peso < pesoMaximo){
-    console.log(let = "Peso de " + peso + medida + " Permitido");
+    console.log(let = `Peso de ${peso}${medida} Permitido`);
 }else{
     console.log("O peso máximo foi excedido")
 }
